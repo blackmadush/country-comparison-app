@@ -1,0 +1,84 @@
+.country-card {
+  background: #f7f7f7;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  padding: 20px;
+}
+
+.country-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.flag-container {
+  text-align: center;
+}
+
+.country-flag {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.country-flag:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.country-name {
+  font-family: "Roboto", sans-serif;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+body1 {
+  font-family: "Roboto", sans-serif;
+  color: #555;
+}
+
+strong {
+  color: #2b2b2b;
+}
+
+.MuiGrid-container {
+  align-items: center;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .country-card {
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  body1 {
+    font-size: 0.9rem;
+  }
+}
+
+* {
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
