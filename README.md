@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# country-comparison
-A modern, minimalistic web application that allows users to easily compare detailed information between two countries. Built with React and powered by the REST Countries API, this app provides a clean interface to display country data such as population, area, languages, and more in a side-by-side comparison.
-=======
 # Country Comparison Web App
 
 This web application allows users to compare detailed information between two countries using data from the REST Countries API.
@@ -19,4 +15,4 @@ Steps
 3.  Install the dependencies: npm install
 4.  Start the application: npm start
 5.  Open the application: In your browser, go to http://localhost:3000 to view the app.
->>>>>>> 9b04c5c (Initial commit)
+    > > > > > > > 9b04c5c (Initial commit)
